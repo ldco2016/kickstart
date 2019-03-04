@@ -8,14 +8,13 @@
     "dev": "node server.js"
   },
   "keywords": [],
-  "author":
-    "Luis D. Cortes <renaissance.scholar2012@gmail.com> (https://dancortes-portfolio.herokuapp.com/)",
+  "author": "Luis D. Cortes <renaissance.scholar2012@gmail.com> (https://dancortes-portfolio.herokuapp.com/)",
   "license": "MIT",
   "dependencies": {
     "fs-extra": "7.0.1",
     "ganache-cli": "6.2.5",
     "mocha": "5.2.0",
-    "next": "4.1.4",
+    "next": "4.2.3",
     "next-routes": "1.4.2",
     "react": "16.7.0",
     "react-dom": "16.7.0",
