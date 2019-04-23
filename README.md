@@ -58,3 +58,14 @@ Above you have seen this application has about four or five different pages and 
 
 Below is a table of some of the possible routes:
 ![](routing_table.png)
+These are the routes a user should be able to visit in the application. If the app is registered at crowdcoin.com that will correspond to a path of `/` as **crowdcoin.com/**.
+
+When a user goes to crowdcoin.com/ we show them a list of all the campaigns created. Whenever the user goes to **crowdcoin.com/campaign/new** we should show them the form to create a campaign.
+
+When a user goes to `/campaigns/0x8147...`, the latter representing some address, I am going to assume that the user wants to get some detail about that campaign at that address. So if the user goes to a campaign as outlined, we should attempt to load up the campaign and show details of it to the user.
+
+If the user goes to `/campaigns/0x8147/requests` the user wants to see requests and if the user goes `/campaigns/0x8147/requests/new` the application will present the user with the form where the user can create a new request for that particular campaign.
+
+These are all very separate pages that the user will look at and navigate between and the url will be tightly coupled to what content we want to show the user on the screen.
+
+To review the tech stack used for this application please refer to **wiki** tab.
