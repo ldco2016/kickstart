@@ -41,7 +41,7 @@ On the right hand side we will show a form that allows the user to contribute so
 On the bottom left-hand side, I will also show a link that someone can click on to be taken to another screen that they can view all the pending requests that are tied to this campaign.
 
 That screen will look like this:
-![]()
+![](crowdcoin_table.png)
 This is going to list all the pending requests for one particular campaign.
 
 I will be putting together a table that shows the **id** of a request, **description**, **amount** of money being transferred, **recipient**, **approval count** and notice how the approval count is going to have both the number of positive votes on the request out of the total number that are tied to the contract.
