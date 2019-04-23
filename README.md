@@ -37,3 +37,15 @@ So the above is a page that shows details about a very particular campaign that 
 On the left hand side I want to show statistics on the campaign, balance, amount of money that has to be contributed to be considered an approver, number of requests created and number of people who have contributed to the campaign.
 
 On the right hand side we will show a form that allows the user to contribute some money to the campaign. So the user enters some money and clicks on the `Contribute` button.
+
+On the bottom left-hand side, I will also show a link that someone can click on to be taken to another screen that they can view all the pending requests that are tied to this campaign.
+
+That screen will look like this:
+![]()
+This is going to list all the pending requests for one particular campaign.
+
+I will be putting together a table that shows the **id** of a request, **description**, **amount** of money being transferred, **recipient**, **approval count** and notice how the approval count is going to have both the number of positive votes on the request out of the total number that are tied to the contract.
+
+On the right hand side of the table we will have two buttons that will allow any contributor to either **Approve** or **Finalize** a request. The above diagram has a typo, it should not say Reject, but **Finalize** instead.
+
+Then we want to do some amount of validation when showing these buttons, to only allow a user to finalize a request if the user is a manager and there is an appropriate number of approvals.
