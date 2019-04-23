@@ -68,4 +68,4 @@ If the user goes to `/campaigns/0x8147/requests` the user wants to see requests 
 
 These are all very separate pages that the user will look at and navigate between and the url will be tightly coupled to what content we want to show the user on the screen.
 
-To review the tech stack used for this application please refer to **wiki** tab.
+To review the tech stack used for this application please refer to [wiki](https://github.com/ldco2016/kickstart/wiki/CRA-vs.-Nextjs) tab.
