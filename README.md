@@ -20,3 +20,6 @@ On the right hand side the user can click on create campaign button if the user 
 
 Once the user decides to create a campaign, the application will redirect them to another screen that uses a form like the one you see below:
 ![](crowdcoin_form.png)
+There is not a lot of information this application needs from a user when they try to create a campaign.
+
+The application just needs the `Minimum Contribution` amount and the user will enter that into a text input and then click on `Create` button. When the user clicks on the `Create` button, it will run the `createCampaign()` Solidity function on the `CampaignFactory` contract.
