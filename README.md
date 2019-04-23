@@ -23,3 +23,12 @@ Once the user decides to create a campaign, the application will redirect them t
 There is not a lot of information this application needs from a user when they try to create a campaign.
 
 The application just needs the `Minimum Contribution` amount and the user will enter that into a text input and then click on `Create` button. When the user clicks on the `Create` button, it will run the `createCampaign()` Solidity function on the `CampaignFactory` contract.
+
+The user clicks on `Create` and they wait 15 seconds or so for the actual campaign to be created.
+
+That leads us to the topic of how to handle long pauses as we wait for transactions to be processed.
+
+As this application is built, there are different patterns to investigate to ensure the user is aware that when the `Create` button is clicked, they have to wait for 15 seconds. I must ensure is clear to the user they have to wait while the contract is being processed.
+
+After the user creates the campaign, we must ensure they have the ability to look at details about the campaign:
+![](crowdcoin_details.png)
