@@ -32,3 +32,8 @@ As this application is built, there are different patterns to investigate to ens
 
 After the user creates the campaign, we must ensure they have the ability to look at details about the campaign:
 ![](crowdcoin_details.png)
+So the above is a page that shows details about a very particular campaign that has been created.
+
+On the left hand side I want to show statistics on the campaign, balance, amount of money that has to be contributed to be considered an approver, number of requests created and number of people who have contributed to the campaign.
+
+On the right hand side we will show a form that allows the user to contribute some money to the campaign. So the user enters some money and clicks on the `Contribute` button.
