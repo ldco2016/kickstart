@@ -49,3 +49,5 @@ I will be putting together a table that shows the **id** of a request, **descrip
 On the right hand side of the table we will have two buttons that will allow any contributor to either **Approve** or **Finalize** a request. The above diagram has a typo, it should not say Reject, but **Finalize** instead.
 
 Then we want to do some amount of validation when showing these buttons, to only allow a user to finalize a request if the user is a manager and there is an appropriate number of approvals.
+
+The last thing is the `Add Request` button, which if clicked it takes the user to a form where they can attempt to create a brand new request with a description, the amount of money they want to transfer and so on. This form should only be completed by the manager of the campaign because only the manager should be allowed to create spending requests.
